@@ -10,6 +10,6 @@ $ docker build -t stack-test .
 
 Run it like this.
 ```
-$ docker run --rm --name stack-test-1 stack-app
+$ docker run --rm --name stack-test-1 stack-test
 ```
 

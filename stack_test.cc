@@ -26,7 +26,7 @@ int main() {
     while (!my_stack.is_empty()) {
         char* string = my_stack.pop();
         cout << "Popped: " << string << endl;
-        free(string);
+        delete string;
     }
 
     return (0);
